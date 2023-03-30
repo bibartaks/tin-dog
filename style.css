@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  max-width: 540px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+nav img {
+  width: 32.33px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.logo {
+  width: 84px;
+}
+
+/* App Container */
+.app-container {
+  position: relative;
+  max-width: 540px;
+  margin: auto;
+}
+
+.app-container img {
+  max-width: 550px;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.dog-details {
+  position: absolute;
+  top: 620;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 550px;
+  color: white;
+}
+
+.dog-details h1 {
+  margin-left: 12px;
+  margin-bottom: 7.23px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #f8f8f8;
+}
+
+.dog-details p {
+  margin-top: 0;
+  margin-left: 12px;
+  color: #b7b7b7;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* Button */
+.buttons {
+  width: 550px;
+  margin: auto;
+  text-align: center;
+  margin-top: 24.56px;
+  margin-bottom: 24.56px;
+}
+
+.btn {
+  border: none;
+  width: 91.87px;
+  height: 91.87px;
+  box-shadow: 0px 10px 20px #e9e9ea;
+  border-radius: 50%;
+  margin-right: 24.23px;
+  background-color: #ffffff;
+}
+
+.heart:hover {
+  background: #dbfff4;
+  box-shadow: 0px 10px 20px #ccf1e6;
+  cursor: pointer;
+}
+
+.cross:hover {
+  background: #ffe7ef;
+  box-shadow: 0px 10px 20px #edd9df;
+  cursor: pointer;
+}
+
+/* End Message */
+.end-message {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Result */
+.likePic {
+  padding-top: 60px;
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 233.91px;
+  transition: 0.5s all ease-in-out;
+}
+
+.NopePic {
+  padding-top: 60px;
+  position: absolute;
+  transform: rotate(-30deg);
+  width: 233.91px;
+  transition: 0.5s all ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
